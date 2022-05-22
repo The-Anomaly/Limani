@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  transition: 0.3s;
+  scroll-behavior: smooth;
+}
+
+/* Euclid Circular */
+@font-face {
+  font-family: "Metropolis";
+  font-weight: 100;
+  font-display: swap;
+  src: url("assets/fonts/Metropolis-Thin.otf") format("opentype");
+}
+@font-face {
+  font-family: "Metropolis";
+  font-weight: 200;
+  font-display: swap;
+  src: url("assets/fonts/Metropolis-ExtraLight.otf") format("opentype");
+}
+@font-face {
+  font-family: "Metropolis";
+  font-weight: 300;
+  font-display: swap;
+  src: url("assets/fonts/Metropolis-Light.otf") format("opentype");
+}
+@font-face {
+  font-family: "Metropolis";
+  font-weight: 400;
+  font-display: swap;
+  src: url("assets/fonts/Metropolis-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "Metropolis";
+  font-weight: 500;
+  font-display: swap;
+  src: url("assets/fonts/Metropolis-Medium.otf") format("opentype");
+}
+@font-face {
+  font-family: "Metropolis";
+  font-weight: 600;
+  font-display: swap;
+  src: url("assets/fonts/Metropolis-SemiBold.otf") format("opentype");
+}
+@font-face {
+  font-family: "Metropolis";
+  font-weight: 700;
+  font-display: swap;
+  src: url("assets/fonts/Metropolis-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "Metropolis";
+  font-weight: 800;
+  font-display: swap;
+  src: url("assets/fonts/Metropolis-ExtraBold.otf") format("opentype");
+}
+@font-face {
+  font-family: "Metropolis";
+  font-weight: 900;
+  font-display: swap;
+  src: url("assets/fonts/Metropolis-Black.otf") format("opentype");
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Metropolis";
+  font-size: 16px;
+  color: #444444;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
