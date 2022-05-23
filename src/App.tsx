@@ -1,8 +1,7 @@
-import React from "react";
-import "./App.css";
+import { Home } from "component";
 
-function App() {
-  return <div>React App</div>;
-}
+const App = () => {
+  return <Home />;
+};
 
 export default App;

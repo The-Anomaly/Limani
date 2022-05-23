@@ -1,10 +1,13 @@
-* {
+*,
+*::after,
+*::before {
   box-sizing: border-box;
   transition: 0.3s;
-  scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
 }
 
-/* Euclid Circular */
+/* Metropolis */
 @font-face {
   font-family: "Metropolis";
   font-weight: 100;
@@ -60,6 +63,11 @@
   src: url("assets/fonts/Metropolis-Black.otf") format("opentype");
 }
 
+img {
+  width: 100%;
+  height: auto
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -69,10 +77,32 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-family: "Metropolis";
   font-size: 16px;
+  font-weight: 400;
   color: #444444;
+  background-color: #fff;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.siteWrapper {
+  max-width: 1300px;
+  margin: auto;
+  padding: 0 4.5%;
+}
+
+@media screen and (max-width: 1300px) {
+  .siteWrapper {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .siteWrapper {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 }

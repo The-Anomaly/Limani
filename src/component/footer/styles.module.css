@@ -1,0 +1,69 @@
+.footerBg {
+  background-color: #eff3f5;
+}
+.footerWrapper {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.footerList {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 2rem;
+  font-size: 14px;
+  line-height: 2.1;
+  gap: 8%;
+}
+.heading {
+  color: #222222;
+  font-weight: 600;
+  margin-bottom: 8px;
+  font-size: 15px;
+}
+.text {
+  margin-bottom: 1.2rem;
+  font-size: 13px;
+  letter-spacing: 0.1px;
+  color: #444444;
+}
+.socialIcons {
+}
+.socialIcons svg {
+  margin-right: 1.4rem;
+}
+.socialIcons svg path {
+  fill: #00a991;
+}
+.contact {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.contact svg {
+  margin-right: 1.5rem;
+}
+.contact a {
+  color: #444;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 15px;
+}
+.offers {
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.offers input {
+  height: 100%;
+  border: none;
+  display: inline-block;
+  padding-left: 1rem;
+  width: calc(100% - 81px);
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  font-family: "Metropolis";
+}
+.offers button {
+  height: 100%;
+  border-top-left-radius: unset;
+  border-bottom-left-radius: unset;
+}

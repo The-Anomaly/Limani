@@ -1,0 +1,54 @@
+.heroContainer {
+  padding-bottom: 3rem;
+  padding-top: 4.15rem;
+  background-image: url("../../assets/vectors/heroBg.svg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 78%;
+  background-position-y: 88%;
+}
+.title {
+  font-family: "Space Grotesk", sans-serif;
+  color: #222222;
+  font-size: 4.5rem;
+  max-width: 700px;
+  margin-bottom: 1.2rem;
+  letter-spacing: -1.5px;
+  line-height: 1.35;
+}
+.title span {
+  color: #0c756d;
+}
+.text {
+  line-height: 2;
+  max-width: 400px;
+  font-size: 14.5px;
+  letter-spacing: 0.3px;
+  margin-bottom: 2.7rem;
+}
+.heroBtn {
+  font-size: 16px;
+  letter-spacing: normal;
+  margin-bottom: 3rem;
+}
+.iconTxt {
+  color: #222222;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  width: fit-content;
+}
+.iconTxt::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #b2b2b2;
+}
+.iconWrap {
+  display: flex;
+  align-items: baseline;
+}
+.iconWrap svg {
+  margin-right: 1.3rem;
+}
