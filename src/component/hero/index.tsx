@@ -1,4 +1,10 @@
-import { CurvedArrow, FacebookIcon, InstagramIcon, TwitterIcon } from "assets";
+import {
+  CurvedArrow,
+  FacebookIcon,
+  HeroBg,
+  InstagramIcon,
+  TwitterIcon,
+} from "assets";
 import { Button } from "component/button";
 import * as React from "react";
 import styles from "./styles.module.css";
@@ -25,6 +31,7 @@ const HeroSection = () => {
         <TwitterIcon /> <FacebookIcon />
         <CurvedArrow />
       </div>
+      <HeroBg className={styles.mobileImg} />
     </section>
   );
 };

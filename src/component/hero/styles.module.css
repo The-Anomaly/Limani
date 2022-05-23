@@ -25,6 +25,7 @@
   font-size: 14.5px;
   letter-spacing: 0.3px;
   margin-bottom: 2.7rem;
+  width: 90%;
 }
 .heroBtn {
   font-size: 16px;
@@ -51,4 +52,33 @@
 }
 .iconWrap svg {
   margin-right: 1.3rem;
+}
+.mobileImg {
+  display: none;
+}
+@media screen and (max-width: 1000px) {
+  .title {
+    font-size: 4rem;
+    max-width: 600px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .title {
+    font-size: 3rem;
+    max-width: 500px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .heroContainer {
+    background-image: unset;
+    padding-bottom: 0;
+  }
+  .mobileImg {
+    display: block;
+    width: calc(100% + 2rem);
+    height: auto;
+    margin-left: -1rem;
+  }
 }

@@ -106,3 +106,9 @@ code {
     padding-right: 2rem;
   }
 }
+@media screen and (max-width: 800px) {
+  .siteWrapper {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}

@@ -18,7 +18,7 @@ const Footer = () => {
         <div className={styles.footerList}>
           <div>
             <p className={styles.heading}>Happiness Delivered</p>
-            <p className={styles.text}>
+            <p className={`${styles.text} ${styles.textMargBottom}`}>
               We are exceptionally positioned to serve both international and
               domestic customers in the world’s fastest growing markets.
             </p>

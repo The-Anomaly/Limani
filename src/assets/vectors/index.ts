@@ -11,6 +11,7 @@ import { ReactComponent as ServiceClearance } from "./serviceClearance.svg";
 import { ReactComponent as GreenTickCircle } from "./greenTickCircle.svg";
 import { ReactComponent as MessageIcon } from "./messageIcon.svg";
 import { ReactComponent as PhoneIcon } from "./phoneIcon.svg";
+import { ReactComponent as HeroBg } from "./heroBgMobile.svg";
 
 export {
   Logo,
@@ -26,4 +27,5 @@ export {
   GreenTickCircle,
   MessageIcon,
   PhoneIcon,
+  HeroBg,
 };

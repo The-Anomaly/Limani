@@ -33,6 +33,9 @@
 .socialIcons svg path {
   fill: #00a991;
 }
+.socialIcons svg:last-of-type {
+    margin-right: 0;
+  }
 .contact {
   display: flex;
   align-items: center;
@@ -41,6 +44,7 @@
 .contact svg {
   margin-right: 1.5rem;
 }
+
 .contact a {
   color: #444;
   text-decoration: none;
@@ -66,4 +70,23 @@
   height: 100%;
   border-top-left-radius: unset;
   border-bottom-left-radius: unset;
+}
+
+@media screen and (max-width: 800px) {
+  .footerWrapper {
+    text-align: center;
+  }
+  .footerList {
+    grid-template-columns: 1fr;
+    text-align: center;
+    max-width: 500px;
+    margin: 2rem auto 0;
+    gap: 3rem;
+  }
+  .contact {
+    justify-content: center;
+  }
+  .textMargBottom {
+    margin-bottom: 2rem;
+  }
 }

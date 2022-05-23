@@ -59,3 +59,18 @@
 .activeCard {
   background-color: #00a991 !important;
 }
+
+@media screen and (max-width: 800px) {
+  .testimonialsWrapper {
+    padding-top: 8rem;
+  }
+  .title {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 600px) {
+    .title {
+      font-size: 1.8rem;
+    }
+  }
+  

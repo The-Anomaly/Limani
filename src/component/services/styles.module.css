@@ -92,5 +92,44 @@
   margin-right: unset;
 }
 .serviceCard:last-of-type .serviceImgSec {
-    max-width: 520px;
+  max-width: 520px;
+}
+
+@media screen and (max-width: 800px) {
+  .intro {
+    text-align: left;
+    padding-bottom: 1rem;
+  }
+  .serviceCard {
+    flex-direction: column;
+    padding-top: 6rem;
+    padding-bottom: 0;
+  }
+  .serviceImgSec {
+    width: 100%;
+    margin-top: 2rem;
+  }
+  .serviceTxtSec {
+    width: 100%;
+    margin-left: 0;
+  }
+  .serviceTxtSec::before {
+    left: 0;
+    top: -3rem;
+  }
+  .serviceTxtSec p {
+    max-width: 500px;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .text2 {
+    line-height: 1.5;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .title {
+    font-size: 1.8rem;
+  }
 }
