@@ -1,9 +1,14 @@
 .footerBg {
   background-color: #eff3f5;
+  position: sticky;
+  bottom: 0;
+  z-index: -1;
+  left: 0;
 }
 .footerWrapper {
   padding-top: 5rem;
   padding-bottom: 5rem;
+  background: inherit;
 }
 .footerList {
   display: grid;

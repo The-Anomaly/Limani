@@ -5,11 +5,23 @@ interface ButtonProps {
   text: string;
   type: "outline" | "filled";
   className?: string;
+  dataAos?: string;
+  dataAosDuration?: string;
 }
 
-const Button = ({ text, type, className }: ButtonProps) => {
+const Button = ({
+  text,
+  type,
+  className,
+  dataAos,
+  dataAosDuration,
+}: ButtonProps) => {
   return (
-    <button className={`${styles[type]} ${styles.btn} ${className}`}>
+    <button
+      data-aos={dataAos}
+      data-aos-duration={dataAosDuration}
+      className={`${styles[type]} ${styles.btn} ${className}`}
+    >
       {text}
     </button>
   );

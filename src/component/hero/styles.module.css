@@ -6,7 +6,22 @@
   background-position: right top;
   background-size: 78%;
   background-position-y: 88%;
+  animation: slide-in 2.5s ease-in-out;
 }
+
+@keyframes slide-in {
+  0% {
+    background-position-x: 200%;
+    background-size: 28%;
+    background-position-y: 200%;
+  }
+  100% {
+    background-position-x: 100%;
+    background-size: 78%;
+    background-position-y: 88%;
+  }
+}
+
 .title {
   font-family: "Space Grotesk", sans-serif;
   color: #222222;
@@ -15,8 +30,10 @@
   margin-bottom: 1.2rem;
   letter-spacing: -1.5px;
   line-height: 1.35;
+  min-height: 194.38px;
 }
-.title span {
+.titleColored,
+.title span:last-of-type {
   color: #0c756d;
 }
 .text {
@@ -60,6 +77,7 @@
   .title {
     font-size: 4rem;
     max-width: 600px;
+    min-height: 172.78px;
   }
 }
 
@@ -67,6 +85,7 @@
   .title {
     font-size: 3rem;
     max-width: 500px;
+    min-height: unset;
   }
 }
 

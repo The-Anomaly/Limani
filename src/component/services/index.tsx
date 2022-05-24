@@ -19,7 +19,7 @@ const ServiceCard = ({
   Image,
 }: ServiceProps) => {
   return (
-    <div
+    <div data-aos="slide-up"
       className={`${styles.serviceCard} ${reverse ? styles.reverseCard : ""}`}
     >
       <div className={styles.serviceTxtSec}>
@@ -67,7 +67,7 @@ const Services = () => {
   ];
   return (
     <section className={`siteWrapper ${styles.servicesWrapper}`}>
-      <div className={styles.intro}>
+      <div className={styles.intro} data-aos="slide-up">
         <h2 className={styles.title}>
           Our <span>Services</span>
         </h2>

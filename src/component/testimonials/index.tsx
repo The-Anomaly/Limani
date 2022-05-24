@@ -65,7 +65,7 @@ const Testimonials = () => {
     },
   ];
   return (
-    <section className={`siteWrapper ${styles.testimonialsWrapper}`}>
+    <section className={`siteWrapper ${styles.testimonialsWrapper}`} data-aos="slide-up">
       <div className={styles.intro}>
         <h2 className={styles.title}>
           Customer <span>Testimonials</span>
