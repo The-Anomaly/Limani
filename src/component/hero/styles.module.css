@@ -12,8 +12,8 @@
 @keyframes slide-in {
   0% {
     background-position-x: 200%;
-    background-size: 28%;
-    background-position-y: 200%;
+    background-size: 58%;
+    background-position-y: 150%;
   }
   100% {
     background-position-x: 100%;
