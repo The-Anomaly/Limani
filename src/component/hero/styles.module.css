@@ -85,7 +85,7 @@
   .title {
     font-size: 3rem;
     max-width: 500px;
-    min-height: unset;
+    min-height: 129.59px;
   }
 }
 
@@ -99,5 +99,10 @@
     width: calc(100% + 2rem);
     height: auto;
     margin-left: -1rem;
+  }
+}
+@media screen and (max-width: 393px) {
+  .title {
+    min-height: 194.39px;
   }
 }

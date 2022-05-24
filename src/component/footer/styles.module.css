@@ -39,8 +39,8 @@
   fill: #00a991;
 }
 .socialIcons svg:last-of-type {
-    margin-right: 0;
-  }
+  margin-right: 0;
+}
 .contact {
   display: flex;
   align-items: center;
@@ -78,6 +78,9 @@
 }
 
 @media screen and (max-width: 800px) {
+  .footerBg {
+    position: relative;
+  }
   .footerWrapper {
     text-align: center;
   }
