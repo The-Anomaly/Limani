@@ -27,6 +27,7 @@
   margin: 2rem 0 3rem;
   overflow-x: auto;
   overflow-y: hidden;
+  margin-right: -4.3%;
 }
 .product {
   color: #fff;
@@ -54,4 +55,17 @@
   transform: translateX(-50%);
   left: 50%;
   font-weight: 500;
+}
+@media screen and (max-width: 600px) {
+  .ttl {
+    font-size: 2.2rem;
+  }
+  .productsWrap {
+    margin-right: -1rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .ttl {
+    font-size: 2rem;
+  }
 }

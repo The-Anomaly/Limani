@@ -79,3 +79,61 @@
 }
 .output button {
 }
+
+@media screen and (max-width: 1000px) {
+  .cardWrap {
+    flex-wrap: wrap;
+    margin-bottom: 6rem;
+  }
+  .advCard {
+    width: 48%;
+    margin-bottom: 2rem;
+  }
+  .output {
+    padding: 4rem 3rem;
+  }
+  .output h3 {
+    font-size: 2.5rem;
+    max-width: 550px;
+  }
+  .output p {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .ttl {
+    font-size: 2.2rem;
+  }
+  .advCard {
+    width: 100%;
+  }
+  .cardWrap {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .output {
+    background-image: url("../../assets/images/outputBgMobile.png");
+    border-radius: 0;
+    background-position: center;
+    width: 100vw;
+    margin-left: -1rem;
+    padding: 16rem 2rem 8rem;
+    margin-bottom: 0;
+  }
+  .output h3 {
+    font-size: 2.2rem
+  }
+  .advantage {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .ttl {
+    font-size: 2rem;
+  }
+  .output {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}

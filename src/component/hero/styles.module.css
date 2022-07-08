@@ -40,3 +40,25 @@
   margin-right: 12px;
   width: 28px;
 }
+
+@media screen and (max-width: 1000px) {
+  .ttl {
+    font-size: 3.35rem;
+    max-width: 600px;
+  }
+  .txtWrap {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .ttl {
+    font-size: 2.8rem;
+  }
+  .txtWrap {
+    font-size: 14px;
+  }
+  .heroBg {
+    background-position: center;
+  }
+}
