@@ -1,7 +1,7 @@
 import {
   FacebookIcon,
   InstagramIcon,
-  LogoWithText,
+  Logo,
   MessageIcon,
   PhoneIcon,
   TwitterIcon,
@@ -14,7 +14,7 @@ const Footer = () => {
   return (
     <footer className={styles.footerBg}>
       <div className={`siteWrapper ${styles.footerWrapper}`}>
-        <LogoWithText />
+        <Logo />
         <div className={styles.footerList}>
           <div>
             <p className={styles.heading}>Happiness Delivered</p>
@@ -26,7 +26,7 @@ const Footer = () => {
             <p className={styles.heading}>Receive exciting offers</p>
             <form className={styles.offers}>
               <input type="email" placeholder="Enter your email"></input>
-              <Button text="Join" type="filled" />
+              <Button onClick={() => {}} size="small">Join</Button>
             </form>
           </div>
           <div>

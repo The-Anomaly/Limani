@@ -60,7 +60,7 @@ body {
   font-size: 16px;
   font-weight: 450;
   color: #444444;
-  background-color: #fff;
+  background-color: #F9FAFB;
 }
 
 code {
@@ -86,23 +86,22 @@ html {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #00a991;
+  background: #25ad78;
   border-radius: 5px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #00a991;
+  background: #25ad78;
 }
 
 .siteWrapper {
-  max-width: 1300px;
+  max-width: 1400px;
   margin: auto;
-  padding: 0 4%;
-  background-color: #fff;
+  padding: 0 4.3%;
 }
 
-@media screen and (max-width: 1300px) {
+/* @media screen and (max-width: 1300px) {
   .siteWrapper {
     padding-left: 2rem;
     padding-right: 2rem;
@@ -120,4 +119,4 @@ html {
     padding-left: 1rem;
     padding-right: 1rem;
   }
-}
+} */

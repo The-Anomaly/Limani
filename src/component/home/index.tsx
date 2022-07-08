@@ -1,5 +1,4 @@
-import { HeroSection, NavBar, Services, Footer } from "component";
-import { Testimonials } from "component/testimonials";
+import { HeroSection } from "component";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import * as React from "react";
@@ -16,13 +15,10 @@ const Home = () => {
 
   return (
     <>
-      <main style={{ background: "#fff" }}>
-        <NavBar />
+      <main>
         <HeroSection />
-        <Services />
-        <Testimonials />
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };

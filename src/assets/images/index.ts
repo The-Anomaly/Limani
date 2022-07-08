@@ -1,6 +1,4 @@
-import airTransport from "./airTransport.png";
-import oceanTransport from "./oceanTransport.png";
-import roadTransport from "./roadTransport.png";
-import clearance from "./clearance.png";
+import heroBg from "./heroBg.png";
+import outputBg from "./outputBg.png";
 
-export { airTransport, oceanTransport, roadTransport, clearance };
+export { heroBg, outputBg };

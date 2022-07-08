@@ -1,17 +1,29 @@
 .btn {
-  border: 1px solid #00a991;
+  border: 1px solid #25ad78;
   border-radius: 8px;
-  padding: 0.95rem 1.65rem;
-  font-size: 13px;
-  letter-spacing: -0.3px;
-  font-family: "Space Grotesk", sans-serif;
+  font-family: "Circular Std", sans-serif;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+ 
 }
 .outline {
   background: transparent;
-  color: #00a991;
+  color: #25ad78;
 }
 .filled {
-  background: #00a991;
+  background: #25ad78;
   color: #fff;
+}
+.icon {
+  margin-left: 10px;
+  width: 22px;
+}
+.large {
+  font-size: 20px;
+  padding: 1.2rem 3.2rem;
+}
+.small {
+  font-size: 16px;
+  padding: 1rem 2rem;
 }

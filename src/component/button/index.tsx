@@ -2,27 +2,39 @@ import * as React from "react";
 import styles from "./styles.module.css";
 
 interface ButtonProps {
-  text: string;
-  type: "outline" | "filled";
+  children: any;
   className?: string;
   dataAos?: string;
   dataAosDuration?: string;
+  onClick: () => void;
+  Icon?: React.FunctionComponent<
+    React.SVGProps<SVGSVGElement> & {
+      title?: string | undefined;
+    }
+  >;
+  size: "large" | "small";
 }
 
 const Button = ({
-  text,
-  type,
+  children,
   className,
   dataAos,
   dataAosDuration,
+  onClick,
+  Icon,
+  size,
 }: ButtonProps) => {
   return (
     <button
       data-aos={dataAos}
       data-aos-duration={dataAosDuration}
-      className={`${styles[type]} ${styles.btn} ${className}`}
+      className={`${styles.filled} ${styles.btn} ${className} ${styles[size]}`}
+      onClick={(e) => {
+        e.preventDefault();
+        onClick();
+      }}
     >
-      {text}
+      {children} {Icon ? <Icon className={styles.icon} /> : ""}
     </button>
   );
 };
