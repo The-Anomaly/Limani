@@ -14,7 +14,7 @@ const Footer = () => {
   return (
     <footer className={styles.footerBg}>
       <div className={`siteWrapper ${styles.footerWrapper}`}>
-        <Logo />
+        <Logo className={styles.logo} />
         <div className={styles.footerList}>
           <div>
             <p className={styles.heading}>Happiness Delivered</p>
@@ -25,7 +25,7 @@ const Footer = () => {
 
             <p className={styles.heading}>Receive exciting offers</p>
             <form className={styles.offers}>
-              <input type="email" placeholder="Enter your email"></input>
+              <input type="email" placeholder="Join our newsletter"></input>
               <Button onClick={() => {}} size="small">Join</Button>
             </form>
           </div>
@@ -37,7 +37,7 @@ const Footer = () => {
             </p>
             <div className={styles.contact}>
               <MessageIcon />{" "}
-              <a href="mailto: info@limani.com">info@limani.com</a>
+              <a href="mailto:info@limaninigeria.com">info@limaninigeria.com</a>
             </div>
             <div className={styles.contact}>
               <PhoneIcon /> <a href="tel: 2340300000000">070 300 000 000</a>

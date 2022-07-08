@@ -1,0 +1,64 @@
+.about {
+  padding-top: 8rem;
+  padding-bottom: 3rem;
+}
+.numTag {
+  margin-bottom: 1.5rem;
+  font-size: 15px;
+}
+.ttl {
+  font-weight: 700;
+  font-size: 2.5rem;
+  max-width: 600px;
+  margin-bottom: 2rem;
+  color: #222222;
+}
+.ttl span {
+  color: #25ad78;
+}
+.info {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+.stats {
+  display: flex;
+  padding-top: 1rem;
+}
+.stat {
+  width: 50%;
+  padding-right: 1rem;
+}
+.stat p:first-of-type {
+  font-weight: 900;
+  color: #222;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.stat p:nth-of-type(2) {
+  font-size: 14px;
+  line-height: 2;
+  width: 80%;
+}
+.txt {
+  line-height: 2;
+  font-size: 15px;
+}
+.txt p {
+  margin-bottom: 10px;
+}
+.readMore {
+  color: #25ad78;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.2px;
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+}
+.readMore svg {
+  width: 22px;
+  margin-left: 8px;
+}
+.readMore svg path {
+  fill: #25ad78;
+}

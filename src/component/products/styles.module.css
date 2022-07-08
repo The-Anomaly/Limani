@@ -1,0 +1,57 @@
+.advantage {
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+.numTag {
+  margin-bottom: 1.5rem;
+  font-size: 15px;
+}
+.ttl {
+  font-weight: 700;
+  font-size: 2.5rem;
+  max-width: 400px;
+  margin-bottom: 2rem;
+  color: #222222;
+}
+.ttl span {
+  color: #25ad78;
+}
+.txt {
+  line-height: 2;
+  font-size: 15px;
+  max-width: 880px;
+  margin-bottom: 10px;
+}
+.productsWrap {
+  display: flex;
+  margin: 2rem 0 3rem;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+.product {
+  color: #fff;
+  position: relative;
+  width: 210px;
+  min-width: 210px;
+  height: 260px;
+  border-radius: 6px;
+  margin-right: 1.5rem;
+}
+.product img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: inherit;
+  height: -webkit-fill-available;
+}
+.product p {
+  position: absolute;
+  bottom: 30px;
+  text-align: center;
+  font-size: 22px;
+  transform: translateX(-50%);
+  left: 50%;
+  font-weight: 500;
+}

@@ -1,4 +1,4 @@
-import { HeroSection } from "component";
+import { HeroSection, About, Advantage, Products, Footer } from "component";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import * as React from "react";
@@ -14,12 +14,13 @@ const Home = () => {
   }, []);
 
   return (
-    <>
-      <main>
-        <HeroSection />
-      </main>
-      {/* <Footer /> */}
-    </>
+    <main>
+      <HeroSection />
+      <About />
+      <Advantage />
+      <Products />
+      <Footer />
+    </main>
   );
 };
 

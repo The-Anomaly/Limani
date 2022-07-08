@@ -1,0 +1,81 @@
+.advantage {
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+.numTag {
+  margin-bottom: 1.5rem;
+  font-size: 15px;
+}
+.ttl {
+  font-weight: 700;
+  font-size: 2.5rem;
+  max-width: 400px;
+  margin-bottom: 2rem;
+  color: #222222;
+}
+.ttl span {
+  color: #25ad78;
+}
+.txt {
+  line-height: 2;
+  font-size: 15px;
+  max-width: 650px;
+  margin-bottom: 10px;
+}
+.cardWrap {
+  margin: 4rem 0 8rem;
+  display: flex;
+  justify-content: space-between;
+}
+.advCard {
+  background: #fff;
+  width: 24.2%;
+  border-radius: 6px;
+  padding: 2.5rem 1rem 1.8rem;
+  text-align: left;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border: 1px solid;
+  border-image-source: linear-gradient(
+    270deg,
+    rgba(7, 254, 219, 0.7) -11.03%,
+    rgba(255, 133, 106, 0.382812) 32.16%,
+    rgba(255, 233, 34, 0.336) 84.29%
+  );
+  box-shadow: 0px 1px 2px 0px #1018280d;
+}
+.advCard img {
+  width: 48px;
+  margin-bottom: 12px;
+}
+.txt1 {
+  font-size: 18px;
+  margin-bottom: 12px;
+  color: #222222;
+}
+.txt2 {
+  font-size: 13px;
+  color: #666666;
+  line-height: 1.5;
+}
+.output {
+  background-image: url("../../assets/images/outputBg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  padding: 6rem 4rem;
+  border-radius: 30px;
+  margin-bottom: 3rem;
+}
+.output h3 {
+  font-size: 3rem;
+  max-width: 650px;
+  margin-bottom: 1.5rem;
+}
+.output p {
+  font-size: 18px;
+  max-width: 480px;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+}
+.output button {
+}
