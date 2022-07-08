@@ -14,7 +14,7 @@ const Products = () => {
     },
     {
       image: sesame,
-      title: "Sesame seed",
+      title: "Sesame",
     },
     {
       image: honey,
