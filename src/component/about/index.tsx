@@ -3,20 +3,45 @@ import * as React from "react";
 import { ArrowRight } from "assets";
 
 const About = () => {
+  const [stats, setStats] = React.useState({
+    farmers: 1,
+    customers: 1,
+  });
+  let i = 0;
+  let j = 0;
+
+  const increase = () => {
+    if (i < 20 || j < 90) {
+      if (i < 20) i += 1;
+      if (j < 90) j += 5;
+
+      setStats({
+        farmers: i,
+        customers: j,
+      });
+    }
+  };
+
+  React.useEffect(() => {
+    setTimeout(() => {
+      setInterval(increase, 60);
+    }, 2600);
+  }, []);
+
   return (
     <section className={`siteWrapper ${styles.about}`}>
       <p className={styles.numTag}>01 - About us</p>
-      <h2 className={styles.ttl}>
+      <h2 data-aos="fade-in" className={styles.ttl}>
         Well-connected to the <span>natural</span> world
       </h2>
-      <div className={styles.info}>
+      <div data-aos="slide-up" className={styles.info}>
         <div className={styles.stats}>
           <div className={styles.stat}>
-            <p>20 +</p>
+            <p>{stats.farmers} +</p>
             <p>Farmers that are in good relationship with us </p>
           </div>
           <div className={styles.stat}>
-            <p>90k +</p>
+            <p>{stats.customers}k +</p>
             <p>Customers that feel the benefit of joining us </p>
           </div>
         </div>

@@ -33,7 +33,7 @@ const Products = () => {
     <>
       <section className={`siteWrapper ${styles.advantage}`}>
         <p className={styles.numTag}>03 - Our Offers</p>
-        <h2 className={styles.ttl}>
+        <h2 data-aos="fade-in" className={styles.ttl}>
           Our <span>Products</span>
         </h2>
         <p className={styles.txt}>
@@ -43,7 +43,7 @@ const Products = () => {
           the confidence that our products are ethically produced and there
           sources are well known.
         </p>
-        <div className={styles.productsWrap}>
+        <div data-aos="slide-up" className={styles.productsWrap}>
           {products.map((item, index) => (
             <div key={index} className={styles.product}>
               <img src={item.image} alt={item.title} />

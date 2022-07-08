@@ -31,7 +31,7 @@ const Advantage = () => {
   return (
     <section className={`siteWrapper ${styles.advantage}`}>
       <p className={styles.numTag}>02 - Our Advantage</p>
-      <h2 className={styles.ttl}>
+      <h2 data-aos="fade-in" className={styles.ttl}>
         The easiest way to <span>source</span>
       </h2>
       <p className={styles.txt}>
@@ -42,7 +42,7 @@ const Advantage = () => {
         why we provide these services for our clients and mostly what
         international buyers are looking you.
       </p>
-      <div className={styles.cardWrap}>
+      <div data-aos="slide-up" className={styles.cardWrap}>
         {advantages.map((item, index) => (
           <div key={index} className={styles.advCard}>
             <img src={item.image} alt="" />
@@ -51,7 +51,7 @@ const Advantage = () => {
           </div>
         ))}
       </div>
-      <div className={styles.output}>
+      <div data-aos="zoom-out" className={styles.output}>
         <h3>
           Increasing the output, Conserving more resources, Improving People’s
           Lives
