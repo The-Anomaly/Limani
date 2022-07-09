@@ -2,6 +2,16 @@
   background-image: url("../../assets/images/heroBg.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #000;
+  /* animation: bg 1s linear 0.1s; */
+}
+@keyframes bg {
+  0% {
+    background-blend-mode: color;
+  }
+  100% {
+    background-blend-mode: unset;
+  }
 }
 .heroContainer {
   padding-bottom: 6rem;

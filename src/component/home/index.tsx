@@ -2,9 +2,14 @@ import { HeroSection, About, Advantage, Products, Footer } from "component";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import * as React from "react";
+import { Preloader } from "component/preloader";
 
 const Home = () => {
+  const [loading, setLoading] = React.useState(true);
   React.useEffect((): any => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 1500);
     AOS.init({
       duration: 1500,
       offset: 100,
@@ -15,6 +20,7 @@ const Home = () => {
 
   return (
     <main>
+      <Preloader loading={loading} />
       <HeroSection />
       <About />
       <Advantage />

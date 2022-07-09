@@ -13,7 +13,11 @@ const HeroSection = () => {
         <h1 className={styles.ttl}>
           The Nigerian Agro Exporter you can trust!
         </h1>
-        <div className={styles.txtWrap}>
+        <div
+          data-aos="slide-up"
+          data-aos-delay="1500"
+          className={styles.txtWrap}
+        >
           <p>
             Our company provides agricultural products to the market that meet
             quality standards.
