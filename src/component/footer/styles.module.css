@@ -84,6 +84,7 @@
   font-family: inherit;
   border: 1px solid #25ad78;
   outline: none !important;
+  border-right: none;
 }
 .offers button {
   height: 100%;
@@ -123,5 +124,8 @@
   .footerWrapper {
     padding-bottom: 3.5rem;
     padding-top: 3.5rem;
+  }
+  .contact svg {
+    margin-right: 1rem;
   }
 }
