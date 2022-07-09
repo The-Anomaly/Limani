@@ -85,6 +85,8 @@
   border: 1px solid #25ad78;
   outline: none !important;
   border-right: none;
+  border-top-right-radius: unset;
+  border-bottom-right-radius: unset;
 }
 .offers button {
   height: 100%;
