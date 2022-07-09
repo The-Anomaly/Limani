@@ -51,7 +51,7 @@ const Advantage = () => {
           </div>
         ))}
       </div>
-      <div data-aos="zoom-out" className={styles.output}>
+      <div data-aos="zoom-in" className={styles.output}>
         <h3>
           Increasing the output, Conserving more resources, Improving People’s
           Lives
