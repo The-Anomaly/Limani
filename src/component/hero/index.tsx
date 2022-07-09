@@ -1,8 +1,6 @@
 import { Button } from "component/button";
 import * as React from "react";
 import styles from "./styles.module.css";
-import Typewriter from "typewriter-effect";
-import { useEffect } from "react";
 import { ArrowDown, ArrowRight, Logo } from "assets";
 
 const HeroSection = () => {
@@ -15,7 +13,7 @@ const HeroSection = () => {
         </h1>
         <div
           data-aos="slide-up"
-          data-aos-delay="1500"
+          data-aos-delay="2500"
           className={styles.txtWrap}
         >
           <p>

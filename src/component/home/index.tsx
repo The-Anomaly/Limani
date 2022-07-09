@@ -9,7 +9,7 @@ const Home = () => {
   React.useEffect((): any => {
     setTimeout(() => {
       setLoading(false);
-    }, 1500);
+    }, 2500);
     AOS.init({
       duration: 1500,
       offset: 100,
