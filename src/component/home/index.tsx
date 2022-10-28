@@ -4,7 +4,11 @@ import "aos/dist/aos.css";
 import * as React from "react";
 import { Preloader } from "component/preloader";
 
-const Home = () => {
+export interface HomeProps {
+  getStarted: () => void;
+}
+
+const HomeUI: React.FC<HomeProps> = ({ getStarted }) => {
   const [loading, setLoading] = React.useState(true);
   React.useEffect((): any => {
     setTimeout(() => {
@@ -21,13 +25,13 @@ const Home = () => {
   return (
     <main>
       <Preloader loading={loading} />
-      <HeroSection />
-      <About />
-      <Advantage />
+      <HeroSection getStarted={getStarted} />
+      <About getStarted={getStarted} />
+      <Advantage getStarted={getStarted} />
       <Products />
       <Footer />
     </main>
   );
 };
 
-export { Home };
+export { HomeUI };

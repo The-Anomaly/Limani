@@ -101,6 +101,14 @@ html {
   padding: 0 4.3%;
 }
 
+input, button, textarea {
+  font-family: inherit;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+}
 
 /* @media screen and (max-width: 800px) {
   .siteWrapper {

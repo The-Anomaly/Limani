@@ -20,20 +20,22 @@ const Footer = () => {
             <p className={styles.heading}>Happiness Delivered</p>
             <p className={`${styles.text} ${styles.textMargBottom}`}>
               We are exceptionally positioned to serve both international and
-              domestic customers in the world’s fastest growing markets.
+              domestic customers in the world’s fastest growing market.
             </p>
 
             <p className={styles.heading}>Receive exciting offers</p>
             <form className={styles.offers}>
               <input type="email" placeholder="Join our newsletter"></input>
-              <Button onClick={() => {}} size="small">Join</Button>
+              <Button onClick={() => {}} size="small">
+                Join
+              </Button>
             </form>
           </div>
           <div>
             <p className={styles.heading}>Get in touch</p>
             <p className={styles.text}>
-              Our customer service very welcome to give consult and services
-              you. And you can Get a FREE Quote Within 24 hours
+              Our customer service is available 24/7 to serve you. For a FREE
+              quote, kindly send us an email and we would respond within 24hrs.
             </p>
             <div className={styles.contact}>
               <MessageIcon />{" "}

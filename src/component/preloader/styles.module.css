@@ -6,16 +6,16 @@
   right: 0;
   width: 100vw;
   height: 100vh;
-  background: #f7f7f780;
   z-index: 1100;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #070707f0;
   background: #000;
 }
-
+.lightBg {
+  background: #f7f7f780;
+}
 .spinner {
   border: 10px solid #f3f3f3;
   border-top: 10px solid #25ad78;

@@ -2,8 +2,9 @@ import styles from "./styles.module.css";
 import * as React from "react";
 import { ArrowRight, badge, box, harvest, saveTime } from "assets";
 import { Button } from "component/button";
+import { HomeProps } from "component/home";
 
-const Advantage = () => {
+const Advantage: React.FC<HomeProps> = ({ getStarted }) => {
   const advantages = [
     {
       image: harvest,
@@ -20,7 +21,7 @@ const Advantage = () => {
     {
       image: badge,
       title: "Quality products",
-      text: `All products are tested for quality and safety before shipping. Our agents are well trained to ensure our product meets your specifications.`,
+      text: `All products are tested for quality and safety before shipping. Our agents are well trained to ensure our product meet your specifications.`,
     },
     {
       image: box,
@@ -40,7 +41,7 @@ const Advantage = () => {
       <p className={styles.txt}>
         We know how to source for genuine business in export contracts, that is
         why we provide these services for our clients and mostly what
-        international buyers are looking you.
+        international buyers are looking.
       </p>
       <div data-aos="slide-up" className={styles.cardWrap}>
         {advantages.map((item, index) => (
@@ -60,7 +61,7 @@ const Advantage = () => {
           Provide us with your product information and any other information
           that would help make sourcing accurate and easy.
         </p>
-        <Button Icon={ArrowRight} onClick={() => {}} size="large">
+        <Button Icon={ArrowRight} onClick={getStarted} size="large">
           Get started now
         </Button>
       </div>

@@ -2,8 +2,9 @@ import { Button } from "component/button";
 import * as React from "react";
 import styles from "./styles.module.css";
 import { ArrowDown, ArrowRight, Logo } from "assets";
+import { HomeProps } from "component/home";
 
-const HeroSection = () => {
+const HeroSection: React.FC<HomeProps> = ({ getStarted }) => {
   return (
     <section className={styles.heroBg}>
       <div className={`siteWrapper ${styles.heroContainer}`}>
@@ -21,13 +22,13 @@ const HeroSection = () => {
             quality standards.
           </p>
           <p>
-            We have learned the market well and have fantastic relationships
-            with our suppliers, customers, and farmers which have contributed to
-            our success.
+            We have developed formidable knowledge in the agribusiness sector
+            with a proven track record of over 10,000 farmers and suppliers with
+            over 50,000 customers who have been pivotal to our success story.
           </p>
         </div>
-        <Button Icon={ArrowRight} onClick={() => {}} size="large">
-          Read more
+        <Button Icon={ArrowRight} onClick={getStarted} size="large">
+          Get started
         </Button>
         <span className={styles.getToKnow}>
           <ArrowDown /> Get to know more about us

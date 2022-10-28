@@ -38,10 +38,13 @@ const Products = () => {
         </h2>
         <p className={styles.txt}>
           Products are sourced directly from the farmers most of whom we have a
-          relationship with so we are able monitor the products right from when
-          they are out of season to the time they are harvested this gives us
-          the confidence that our products are ethically produced and there
-          sources are well known.
+          relationship with which enables us to directly monitor products right
+          from when they are harvested.
+        </p>
+        <p className={styles.txt}>
+          We ensure that our products align with the best ethical standards for
+          cultivation and planting of our produces ensuring that the quality is
+          not compromised from farm to table.
         </p>
         <div data-aos="slide-up" className={styles.productsWrap}>
           {products.map((item, index) => (

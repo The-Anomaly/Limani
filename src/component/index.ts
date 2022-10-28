@@ -6,3 +6,5 @@ export * from "./about";
 export * from "./advantage";
 export * from "./products";
 export * from "./preloader";
+export * from "./getStartedModal";
+export * from "./toastModal";

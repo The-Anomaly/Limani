@@ -54,6 +54,10 @@
   margin-top: 1rem;
   display: flex;
   align-items: center;
+  padding: 0;
+  background: transparent;
+  font-family: inherit;
+  border: none
 }
 .readMore svg {
   width: 22px;

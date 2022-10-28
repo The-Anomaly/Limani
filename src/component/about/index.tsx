@@ -1,8 +1,9 @@
 import styles from "./styles.module.css";
 import * as React from "react";
 import { ArrowRight } from "assets";
+import { HomeProps } from "component/home";
 
-const About = () => {
+const About: React.FC<HomeProps> = ({ getStarted }) => {
   const [stats, setStats] = React.useState({
     farmers: 1,
     customers: 1,
@@ -50,19 +51,19 @@ const About = () => {
             We have built relationships with genuine farmers and suppliers over
             the years. We export items of the highest quality, such as Sesame
             seeds, Hardwood, Shea butter, Bitter kola and Cashew nuts, which
-            meet international standards and are unequalled everywhere in the
+            meet international standards and are unequalled anywhere in the
             world.
           </p>
           <p>
-            As a registered member of Nigerian export promotion council (NEPC)
+            As a registered member of Nigerian Export Promotion Council (NEPC)
             we are obligated to provide well certified global standard product
             to both local and foreign markets. Our storage and processing
             facilities are always treated and monitored to ensure product
             quality does not depreciate with time.
           </p>
-          <a className={styles.readMore}>
-            Read more <ArrowRight />{" "}
-          </a>
+          <button onClick={getStarted} className={styles.readMore}>
+            Get started <ArrowRight />{" "}
+          </button>
         </div>
       </div>
     </section>

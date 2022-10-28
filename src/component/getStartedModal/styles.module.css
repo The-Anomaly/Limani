@@ -1,0 +1,132 @@
+.dialog {
+  position: fixed;
+  width: 100vw;
+  z-index: 10;
+  height: 100vh;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #d5d6d780;
+  overflow: auto;
+}
+.body {
+  background: #f9fafb;
+  border-radius: 16px;
+  padding: 3rem;
+  width: 90%;
+  max-width: 550px;
+  position: relative;
+  margin: auto;
+}
+.closeBtn {
+  position: absolute;
+  right: 2rem;
+  top: 1rem;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.ttl {
+  color: #231c4e;
+  font-size: 16px;
+  margin-bottom: 1.2rem;
+  font-weight: 800;
+  color: #25ad78;
+  font-size: 32px;
+}
+.txt {
+  color: #444444;
+  margin-bottom: 2.2rem;
+  font-size: 14px;
+  line-height: 1.8;
+}
+.contactForm {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 450px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.inputWrap {
+  text-align: left;
+  margin-bottom: 1.2rem;
+  width: 100%;
+}
+.inputWrap label {
+  color: #444444;
+  font-weight: 400;
+  margin-bottom: 6px;
+  display: block;
+  font-size: 13px;
+  letter-spacing: 0.2px;
+}
+.inputWrap input {
+  width: 100%;
+  background: transparent;
+  height: 44px;
+  padding-left: 1rem;
+  background: #ffffff;
+  border: 1px solid #eaecf0;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+}
+.inputWrap textarea {
+  width: 100%;
+  height: 100px;
+  resize: none;
+  padding-left: 1rem;
+  padding-top: 12px;
+  background: #ffffff;
+  border: 1px solid #eaecf0;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+}
+.inputWrap input::placeholder,
+.inputWrap textarea::placeholder {
+  color: #98a2b3;
+  font-weight: 300;
+}
+.halfWidth {
+  width: 47%;
+}
+.contactBtn {
+  margin-top: 1.5rem;
+  background: #25ad78;
+  border-radius: 6px;
+  color: #fff;
+  border: none;
+  outline: none;
+  width: fit-content;
+  padding: 1rem 3rem;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.contactBtn svg {
+  margin-left: 8px;
+  width: 20px;
+}
+.errorMessage {
+  color: red;
+  font-size: 11px;
+  margin-top: 8px;
+}
+@media screen and (max-width: 650px) {
+  .body {
+    padding: 3rem 2rem;
+  }
+  .closeBtn {
+    font-size: 2rem;
+    top: 12px;
+    right: 1rem;
+  }
+  .ttl {
+    font-size: 24px;
+  }
+  .contactBtn {
+    width: 100%;
+  }
+}
